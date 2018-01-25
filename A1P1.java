@@ -1,8 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Assignment1 {
-    public Assignment1() {
+public class A1P1 {
+    public A1P1() {
         //Here for formalities
     }
 
