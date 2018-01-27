@@ -1,7 +1,14 @@
+/*
+Assignment 1 Question 1
+Asks user for 9 double inputs
+Sorts the 3x3 Matrix from those 9 inputs
+Outputs the 3x3 Matrix with the columns sorted from least to greatest where the top of the array is the least and the greatest is at the bottom of the array
+*/
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class A1P1 {
+    //default constructor
     public A1P1() {
         //Here for formalities
     }
@@ -16,14 +23,14 @@ public class A1P1 {
         //System.out.println("Sorting");
         for(int i = 0; i < m.length; i++){
             temp[i] = getColumn(m,i);
-            Arrays.sort(temp[i]);
+            Arrays.sort(temp[i]); //sorts the array
         }
         //swap diags
         for(int i = 0; i < m.length; i++){
             for(int j = 0; j < m.length; j++){
                 if(i != j && i < j){
                    //System.out.println("swapping " + temp[i][j] + "("+i+","+j+") to " + temp[j][i] + "("+j+","+i+")");
-                    swap(temp,i,j,j,i);
+                    swap(temp,i,j,j,i); //swaps the diagnal 
                     //System.out.println("Result: " + temp[i][j] + "(" + i + "," + j +") to " + temp[j][i] + "(" + j + "," + i +")");
                 }
             }
