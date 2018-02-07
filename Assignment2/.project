@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Assignment2</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>a2p3/CargoShip.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Assignment2pt2/src/CargoShip.java</locationURI>
+		</link>
+		<link>
+			<name>a2p3/CruiseShip.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Assignment2pt2/src/CruiseShip.java</locationURI>
+		</link>
+		<link>
+			<name>a2p3/Ship.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Assignment2pt2/src/Ship.java</locationURI>
+		</link>
+		<link>
+			<name>a2p3/Test.java</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Assignment2pt2/src/Test.java</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
