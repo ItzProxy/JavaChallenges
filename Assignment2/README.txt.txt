@@ -1,3 +1,5 @@
+All files can be seen on Github (https://github.com/ItzProxy/JavaChallenges/tree/master/Assignment2)
+
 a2p1
 This include both part 1 and part 2 of assignment
 Account.java
