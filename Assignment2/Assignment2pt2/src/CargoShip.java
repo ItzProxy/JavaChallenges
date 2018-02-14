@@ -31,7 +31,6 @@ public class CargoShip extends Ship{
         Overrides super class toString()
         ex: Name: Hello Year: 1990 Max Weight: 1902
     */
-    @Override
     public String toString(){
         return "Name: "+this.getShipName()+" Year: " + this.getYearBuilt() + " Max Weight: " + this.cargoCapacityWeight;
     }

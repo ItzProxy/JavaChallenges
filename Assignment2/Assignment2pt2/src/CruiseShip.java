@@ -33,7 +33,6 @@ public class CruiseShip extends Ship{
         returns: String
         ex: Name: Hello Year: 1990 Max Passengers: 190
     */
-    @Override
     public String toString(){
         return "Name: "+this.getShipName()+" Year: " + getYearBuilt() + " Max Passengers: " + maxPassengers;
     }

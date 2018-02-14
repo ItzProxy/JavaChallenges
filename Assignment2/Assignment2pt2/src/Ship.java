@@ -38,7 +38,6 @@ public class Ship{
     }
     //Overrides toString() to display shipName and YearBuild
     //ex Name: Hello Year: 1990
-    @Override
     public String toString(){
         return "Name: "+shipName+" Year: "+yearBuilt;
     }
