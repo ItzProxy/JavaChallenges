@@ -16,3 +16,18 @@ Independent Java 9 Programs
         <br> Includes: Point.java and Triangle.java (contains the Heron's Formula)
         </p>
         </details>
+2. Assignment 2
+3. Assignment 3
+    1.  <details>
+        <summary> Testing Inheritance - A3P1.java</summary>
+        <p> Inheriting and overriding super class toString function
+        <br> Includes: GeometricObject.java, Triangle.java, Test.java
+        <br> Build path: build/p1
+        </p>
+        </details>
+    2. <details>
+        <summary> Custom Exception based on other factors that are v - a1p2/A1P2.java</summary>
+        <p> Uses Heron's Formula to calculate the area of a triangle given user inputted points
+        <br> Includes: Point.java and Triangle.java (contains the Heron's Formula)
+        </p>
+        </details>
