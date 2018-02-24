@@ -19,11 +19,7 @@ public class ReadURL{
         this.data = "";
     }
 
-    public ReadURL(URL url){
-        this.url = url;
-        setData();
-    }
-
+ 
     public URL getURL(){
         return url;
     }
@@ -33,14 +29,23 @@ public class ReadURL{
         setData();
     }
 
+    //setter
+    public ReadURL(URL url){
+        this.url = url;
+        setData();
+    }
+    /*
+        Takes the URL set by the class
+        Sets data to the data stream returned by the openStream function
+        Otherwise, if the source is an invalid URL then an exception will be caught by the setter because it is a private method
+    */
     private void setData(){
         try{
-            InputStream input = this.url.openStream();
-            Scanner in = new Scanner(input);
+            InputStream input = this.url.openStream(); //opens URL
+            Scanner in = new Scanner(input); //sets up scanner with the InputStream as the paramater
 
-            String inputLine;
             while (in.hasNext())
-                data+=in.nextLine();
+                data+=in.nextLine(); //sets data to what ever is returned from the input
             in.close();
         }
         catch(IOException ex){
@@ -50,5 +55,9 @@ public class ReadURL{
 
     public String getData(){
         return this.data;
+    }
+
+    private void emptyData(){
+        data = "";
     }
 }
