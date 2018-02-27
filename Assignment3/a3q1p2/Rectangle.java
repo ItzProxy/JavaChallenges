@@ -56,7 +56,7 @@ public class Rectangle extends GeometricObject {
   public String toString(){
     return "Rectangle Object";
   }
-
+//print the information of this object
   public void printInfo(){
     System.out.println("The area is " + getArea());
     System.out.println("The width is " + getWidth());

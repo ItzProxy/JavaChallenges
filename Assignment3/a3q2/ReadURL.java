@@ -4,14 +4,16 @@ import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.*;
-
+/*
+    Purpose: To read the URL supplied into a string and save it into data variable
+*/
 public class ReadURL{
     private URL url;
     private String data;
 
     public ReadURL(){
         try{
-            this.url = new URL("https://www.google.ca/");
+            this.url = new URL("https://www.google.ca/"); //because it won't accept an empty string for input
         }
         catch(MalformedURLException ex){
             this.url = null;
@@ -32,7 +34,7 @@ public class ReadURL{
     //setter
     public ReadURL(URL url){
         this.url = url;
-        setData();
+        setData(); //set data
     }
     /*
         Takes the URL set by the class
@@ -41,6 +43,7 @@ public class ReadURL{
     */
     private void setData(){
         try{
+            emptyData(); // empty data just incase the url is changed meaning that it will append the new url contents to data
             InputStream input = this.url.openStream(); //opens URL
             Scanner in = new Scanner(input); //sets up scanner with the InputStream as the paramater
 

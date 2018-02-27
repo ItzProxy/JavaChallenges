@@ -1,5 +1,5 @@
 package p2;
-
+//custom Exception
 public class DifferentTypeException extends Exception{
     String exStr;
     DifferentTypeException(Object x, Object y){

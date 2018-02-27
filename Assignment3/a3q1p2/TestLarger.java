@@ -36,20 +36,20 @@ public class TestLarger{
                 System.out.println();
             }
         }
-        catch(DifferentTypeException x){
+        catch(DifferentTypeException x){ //throw to DifferentTypeException
             System.out.println("The object is different");
         }
     }
 
 
     static GeometricObject larger(GeometricObject g1, GeometricObject g2) throws DifferentTypeException{
-        if(!g1.toString().equals(g2.toString())){
+        if(!g1.toString().equals(g2.toString())){ //check if the returned String object are equal in value because g1.equal(g2) will always return different object
             throw new DifferentTypeException(g1,g2);
         }
-        if(g1.getArea() == g2.getArea()){
+        if(g1.getArea() == g2.getArea()){ //check if the returned area value are equal (because primitive values are returned == is possible)
             System.out.println("Area is the same");
             return null;
         }
-        return (g1.getArea() > g2.getArea()) ? g1 : g2;
+        return (g1.getArea() > g2.getArea()) ? g1 : g2; //return which ever area is larger
     }
 }

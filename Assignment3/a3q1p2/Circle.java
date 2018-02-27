@@ -54,7 +54,7 @@ public class Circle extends GeometricObject {
   public String toString(){
     return "Circle Object";
   }
-
+  //prints the information 
   public void printInfo(){
     System.out.println("The area is " + this.getArea());
     System.out.println("The radius is " + this.getRadius());

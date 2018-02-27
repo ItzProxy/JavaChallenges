@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Test{
     public static void main(String[] args){
-        Random rand = new Random();
+        Random rand = new Random(); //random var with randomly given seed
         while(true){ //infinite loop because restarting program is tedious 
             int i = rand.nextInt()%3;
                 try{
