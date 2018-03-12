@@ -75,12 +75,14 @@ public class EditDistance{
         Given initial problem state
     */
     public static int EditDistanceDyanmic(String str1, String str2){
-
+        return 0;
     }
 
     /*
         CAN I DO STRIPS AI!? Probably not.
     */
 
-    public static int EditDistanceStrips(String str1, String str2)
+    public static int EditDistanceStrips(String str1, String str2){
+        return 0;
+    }
 }
