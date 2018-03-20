@@ -31,3 +31,40 @@ Independent Java 9 Programs
         <br> Includes: Point.java and Triangle.java (contains the Heron's Formula)
         </p>
         </details>
+4. Assignment 5
+    1.  <details>
+        <summary> Testing Custom Exception - IllegalTriangleException</summary>
+        <p> Using the triangle property where (a,b,c) are the sides of the triangle; a >= b, a + b > c
+        <br>
+        <p> The exception happens when a + b < c || a + c < b || b + c < a
+        <br> Includes: GeometricObject.java, Triangle.java, Test.java, IllegalTriangleException
+        <br> Build path: build/
+        </p>
+        </details>
+    2.  <details>
+        <summary> Reading from Data File(.dat) using DataInput/OutputStream</summary>
+        <p>Using the DataOutputStream to generate file and content then use DataInputStream to read it to console
+        <br> Includes: Test.java
+        <br> Build path: build/
+        </p>
+        </details>
+    3.  <details>
+        <summary> Implementing an interface</summary>
+        <p>Implement Draw interface and pass it to method to be used
+        <br> Includes: Artist.java, Drawable.java, Rectangle.java
+        <br> Build path: build/q3
+        </p>
+        </details>
+    4.  <details>
+        <summary> Implementing Clonable and CompareTo to Parent Class and to child class</summary>
+        <br> Includes: Animal.java, Chicken.java, Tiger.java, Test.java
+        <br> Build path: build/q4
+        </p>
+        </details>
+    5.  <details>
+        <summary> RandomAccessFile Utilization</summary>
+        <p> Get 10 floats from user into a RandomAccessFile obj, then read from created file using user input then read entire file displaying the floats
+        <br> Includes: AccessRecordRandomly.java, CreateItemRecord.java, DisplayRecordSequentially.java, Test.java
+        <br> Build path: build/q5
+        </p>
+        </details>

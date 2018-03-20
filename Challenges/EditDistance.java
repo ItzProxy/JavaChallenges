@@ -43,8 +43,8 @@ public class EditDistance{
             d != l, substitution of d for l, Cost += (deletion of d) + (insertion of l)
             e != o, subtition of
             o == o, same, so no change required
-            m != k, 
-            B != ~E,
+            m != k, substitution
+            B != ~E, insertion
 
         Naive method done using greedy algorithm of scope of only at the character and only manipulating one side to match the other instead of finding
         the lowest common distance between both

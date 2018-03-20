@@ -1,7 +1,11 @@
 package q3;
-class Test{
+class Artist {
     public static void main(String[] args){
-        Rectangle x = new Rectangle(10,12);
+        Rectangle rec = new Rectangle(3,4);
+        drawObject(rec);
     }
 
+    public static void drawObject(Drawable x){
+        x.draw();
+    }
 }

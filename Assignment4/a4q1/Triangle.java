@@ -14,6 +14,12 @@ public class Triangle extends GeometricObject{
         if(s1 + s2 < s3){
             throw new IllegalTriangleException(s1,s2,s3,"IllegalTriangleException Thrown");
         }
+        else if(s2 + s3 < s1){
+            throw new IllegalTriangleException(s1,s2,s3,"IllegalTriangleException Thrown");
+        }
+        else if(s1 + s3 < s2){
+            throw new IllegalTriangleException(s1,s2,s3,"IllegalTriangleException Thrown");
+        }
         this.side1 = s1;
         this.side2 = s2;
         this.side3 = s3;

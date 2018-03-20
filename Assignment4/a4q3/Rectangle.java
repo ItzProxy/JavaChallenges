@@ -47,9 +47,9 @@ public class Rectangle implements Drawable{
   //implements draw() from Drawable
   public void draw(){
     for(int i=0;i<width;i++){
-      for(int j=0;j<height;i++)
+      for(int j=0;j<height;j++)
         System.out.print("*");
-      System.out.println()
+      System.out.println();
     }
   }
 
