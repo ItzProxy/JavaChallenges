@@ -68,3 +68,10 @@ Independent Java 9 Programs
         <br> Build path: build/q5
         </p>
         </details>
+5. Assignment 5
+    1.  <summary> Simple Generic Usage (Pretty much same as C# for me)</summary>
+        <p> Remove duplicates with a generic method and non-generic method
+        <br> Includes: GenericDemo.java
+        <br> Build path: build/
+        </p>
+        </details>
